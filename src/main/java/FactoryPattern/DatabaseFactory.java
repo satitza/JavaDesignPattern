@@ -1,9 +1,6 @@
 package FactoryPattern;
 
-import FactoryPattern.Database.DatabaseProvider;
-import FactoryPattern.Database.MSSQLServer;
-import FactoryPattern.Database.MySQLDatabase;
-import FactoryPattern.Database.OracleDatabase;
+import FactoryPattern.Database.*;
 
 public class DatabaseFactory {
 
