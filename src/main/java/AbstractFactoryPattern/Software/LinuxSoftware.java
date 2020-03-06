@@ -1,5 +1,5 @@
 package AbstractFactoryPattern.Software;
 
-public interface LinuxSoftware extends Software {
+public abstract class LinuxSoftware implements Software {
 
 }

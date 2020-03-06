@@ -4,7 +4,7 @@ import AbstractFactoryPattern.Enum.EnumPlatform;
 import AbstractFactoryPattern.Enum.EnumSoftware;
 import AbstractFactoryPattern.Software.LinuxSoftware;
 
-public class LinuxBrowser implements LinuxSoftware {
+public class LinuxBrowser extends LinuxSoftware {
 
     @Override
     public void printPlatform() {
@@ -15,4 +15,5 @@ public class LinuxBrowser implements LinuxSoftware {
     public void printName() {
         System.out.println(EnumSoftware.BROWSER.toString());
     }
+
 }

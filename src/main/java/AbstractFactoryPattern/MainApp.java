@@ -29,7 +29,6 @@ public class MainApp {
         ide.printName();
         ide.printPlatform();
 
-
     }
 
 }

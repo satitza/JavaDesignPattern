@@ -4,7 +4,7 @@ import AbstractFactoryPattern.Enum.EnumPlatform;
 import AbstractFactoryPattern.Enum.EnumSoftware;
 import AbstractFactoryPattern.Software.WindowsSoftware;
 
-public class WindowsBrowser implements WindowsSoftware {
+public class WindowsBrowser extends WindowsSoftware {
 
 
     @Override

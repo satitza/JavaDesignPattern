@@ -4,7 +4,7 @@ import AbstractFactoryPattern.Enum.EnumPlatform;
 import AbstractFactoryPattern.Enum.EnumSoftware;
 import AbstractFactoryPattern.Software.WindowsSoftware;
 
-public class WindowsIDE implements WindowsSoftware {
+public class WindowsIDE extends WindowsSoftware {
 
     @Override
     public void printPlatform() {

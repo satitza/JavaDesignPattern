@@ -1,5 +1,5 @@
 package AbstractFactoryPattern.Software;
 
-public interface WindowsSoftware extends Software {
+public abstract class WindowsSoftware implements Software {
 
 }

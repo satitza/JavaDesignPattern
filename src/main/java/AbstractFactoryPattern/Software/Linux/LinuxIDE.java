@@ -4,7 +4,7 @@ import AbstractFactoryPattern.Enum.EnumPlatform;
 import AbstractFactoryPattern.Enum.EnumSoftware;
 import AbstractFactoryPattern.Software.LinuxSoftware;
 
-public class LinuxIDE implements LinuxSoftware {
+public class LinuxIDE extends LinuxSoftware {
 
     @Override
     public void printPlatform() {
