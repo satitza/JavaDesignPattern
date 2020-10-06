@@ -1,4 +1,6 @@
-package ObserverPattern;
+package ObserverPattern.observer;
+
+import ObserverPattern.Subject;
 
 public class BinaryObserver extends Observer {
 
